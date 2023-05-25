@@ -15,6 +15,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NPSAPIProject"
         tools:targetApi="31">
+        <activity android:name=".NPSDetailActivity"/>
+        <activity android:name=".NPSDetailActivityFurther"/>
+        <activity android:name=".LoginActivity"/>
+        <activity android:name=".RegistrationActivity"/>
+        <activity android:name=".NPSCollection"/>
         <activity
             android:name=".NPSActivity"
             android:exported="true">
